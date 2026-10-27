@@ -1,5 +1,5 @@
 // Son Kare: local-only, subpath-safe offline support for the iPhone edition.
-const VERSION = 'd6f84ea9da2a';
+const VERSION = '40f6e2f0d1dd';
 const CACHE_PREFIX = 'son-kare-iphone-' + encodeURIComponent(self.registration.scope) + '-';
 const CACHE = CACHE_PREFIX + VERSION;
 const CORE_PATHS = ['./', './index.html', './manifest.webmanifest', './icons/icon-192.png', './icons/icon-512.png', './icons/icon-maskable.png'];
@@ -7,7 +7,7 @@ const CORE = CORE_PATHS.map(path => new URL(path, self.location.href).href);
 const INDEX = new URL('./index.html', self.location.href).href;
 
 self.addEventListener('install', event => {
-  event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(CORE)).then(() => self.skipWaiting()));
+  event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(CORE.map(url => new Request(url, { cache: 'reload' })))).then(() => self.skipWaiting()));
 });
 
 self.addEventListener('activate', event => {

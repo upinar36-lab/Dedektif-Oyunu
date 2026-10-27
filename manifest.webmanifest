@@ -1,8 +1,8 @@
 {
   "id": "./",
-  "name": "Son Kare — Cinayet Dosyası",
+  "name": "Son Kare — Dedektif Dosyaları",
   "short_name": "Son Kare",
-  "description": "Beş şüpheli, farklı saatler ve tek gerçek. Karaca Film Arşivi’nin interaktif cinayet dosyası.",
+  "description": "Basit, Orta ve Zor seviyelerde üç vaka. Kilitli Raf, Kuzgun Gölü ve Son Kare dosyalarını çöz.",
   "lang": "tr",
   "start_url": "./",
   "scope": "./",
