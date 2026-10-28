@@ -2,7 +2,7 @@
   "id": "./",
   "name": "Cinayet Dedektifi",
   "short_name": "Cinayet Dedektifi",
-  "description": "Basit, Orta ve Zor seviyelerde iki vaka. Kuzgun Gölü ve Son Kare dosyalarını çöz.",
+  "description": "Basit, Orta ve Zor seviyelerde üç vaka. Pamukkale’de Son Işık, Kuzgun Gölü ve Son Kare dosyalarını çöz.",
   "lang": "tr",
   "start_url": "./",
   "scope": "./",
