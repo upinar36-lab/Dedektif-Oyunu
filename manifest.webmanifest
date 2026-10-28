@@ -1,37 +1,20 @@
 {
   "id": "./",
-  "name": "Cinayet Dedektifi",
-  "short_name": "Cinayet Dedektifi",
-  "description": "Basit, Orta ve Zor seviyelerde yedi vaka. İlk beş hikâye ücretsiz; Viyana ve Davraz tanıtım altınıyla kalıcı açılır.",
+  "name": "DEDEKTİF – Cinayet Dosyaları",
+  "short_name": "DEDEKTİF",
   "lang": "tr",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
-  "orientation": "portrait-primary",
-  "background_color": "#101213",
-  "theme_color": "#101213",
-  "categories": [
-    "games",
-    "entertainment"
-  ],
+  "orientation": "portrait",
+  "theme_color": "#080c16",
+  "background_color": "#080c16",
   "icons": [
     {
-      "src": "./icons/icon-192.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "./icons/icon-512.png",
+      "src": "./app-icon.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
-    },
-    {
-      "src": "./icons/icon-maskable.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "maskable"
     }
   ]
 }
