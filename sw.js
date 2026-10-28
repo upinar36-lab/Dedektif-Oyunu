@@ -1,5 +1,5 @@
 // Son Kare: local-only, subpath-safe offline support for the iPhone edition.
-const VERSION = 'e08dc0c44c26';
+const VERSION = 'ab540a23fb24';
 const CACHE_PREFIX = 'son-kare-iphone-' + encodeURIComponent(self.registration.scope) + '-';
 const CACHE = CACHE_PREFIX + VERSION;
 const CORE_PATHS = ['./', './index.html', './manifest.webmanifest', './icons/icon-192.png', './icons/icon-512.png', './icons/icon-maskable.png'];
